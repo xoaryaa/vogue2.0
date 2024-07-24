@@ -68,7 +68,7 @@ A page that screams Vogue!!
 1. Clone the project
 
 ```bash
-git clone https://github.com/xoaryaa/paw-stagram.git
+git clone https://github.com/xoaryaa/vogue2.0.git
 ```
 
 2. Go to the project directory
@@ -79,13 +79,12 @@ cd vogue2.0
 3.Install libraries
 
 ```bash
-pip install requests pandas pillow flask
+pip install -r requirements.txt
 ```
-4. Run the project(run the below commands one by one)
+4. Run the project
 ```bash
-1.python fetch_images.py
-2.python create_board.py
-3.python run.py
+
+python run.py
 ```
 
 
