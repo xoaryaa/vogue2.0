@@ -10,11 +10,11 @@
 from flask import render_template, request
 import pandas as pd
 import requests
-
+import os
 from app import app
 
-API_KEY = 'AIzaSyCbR7Yu0jtGGG0o9KQv3Lo2BmHCUcTglMg'
-CSE_ID = '9770547ff93ef4ec8'
+API_KEY = os.getenv('API_KEY')
+CSE_ID = os.getenv('CSE_ID')
 
 
 def fetch_images(api_key, cse_id, query, num_results=10):
