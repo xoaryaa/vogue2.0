@@ -1,7 +1,7 @@
 <h1 align="center">
  
   <br>
-Your Go-To Vogue
+Fashion Inspiration Board
 </h1>
 
 <div align="center">
